@@ -32,7 +32,7 @@ function ContactUs() {
             </div>
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-400 sm:text-lg sm:leading-7">
-                <p>Please fill out the form below to contact us.</p>
+                <p>please comment here.</p>
               </div>
               <div className="flex flex-col">
                 <form action="" onSubmit={handleSubmit}>

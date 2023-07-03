@@ -9,15 +9,15 @@ const projects = [
     description:
       "The story of a journey to save the president's daughter from a remote village.",
     image: "/residenevil4.jpeg",
-    github: "",
-    link: "",
+    github: "https://github.com/kadekdiki/residenevil_4",
+    link: "https://kadekdiki.github.io/residenevil_4/",
   },
   {
     name: "First Project",
     description: "The first project that I made using HTML and CSS",
     image: "/websederhana.png",
-    github: "",
-    link: "",
+    github: "https://github.com/kadekdiki/cssuh",
+    link: "https://cssuh-a18ij1vdw-kadekdiki.vercel.app/",
   },
 ]
 
@@ -47,7 +47,7 @@ const ProjectsSection = () => {
                 </div>
                 <div className="mt-8 md:w-1/2">
                   <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                  <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                  <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-600">
                     {project.description}
                   </p>
                   <div className="flex flex-col align-bottom md:flex-row md:space-x-4">

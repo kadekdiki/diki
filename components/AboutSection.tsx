@@ -71,7 +71,7 @@ const AboutSection = () => {
                 )
               })}
               <Image
-              src="/diki.png"
+              src="/coding.png"
               alt=""
               width={325}
               height={325}

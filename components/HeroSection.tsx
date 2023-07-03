@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
             Student{" "}
             </span>
-            based on learning with the knowledge that I learned at SMK 1 Denpasar
+            based on learning with the knowledge that I learned at SMKN 1 Denpasar
           </p>
           <Link
             to="projects"

@@ -31,8 +31,8 @@ function ContactUs() {
               <span className="font-bold text-2xl">Contact Us</span>
             </div>
             <div className="divide-y divide-gray-200">
-              <div className="py-8 text-base leading-6 space-y-4 text-gray-400 sm:text-lg sm:leading-7">
-                <p>please comment here.</p>
+              <div className="py-8 text-base leading-6 space-y-4 text-cyan-600 sm:text-lg sm:leading-7">
+                <p>Please Comment Here.</p>
               </div>
               <div className="flex flex-col">
                 <form action="" onSubmit={handleSubmit}>

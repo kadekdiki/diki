@@ -29,7 +29,7 @@ function ContactUs() {
               >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg>
-              <span className="font-bold text-2xl">Contact Us</span>
+              <span className="font-bold text-2xl text-orange-500">Contact Us</span>
             </div>
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-cyan-600 sm:text-lg sm:leading-7">

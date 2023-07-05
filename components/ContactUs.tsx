@@ -9,7 +9,7 @@ function ContactUs() {
   }
 
   return (
-  <section id="contact">
+  <section id="contact">x
     <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12 bg-transparent" id="ContactUs">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
         <div className="relative px-4 py-10 bg-red mx-8 md:mx-0 shadow rounded-3xl sm:p-10 bg-red-850">
@@ -43,23 +43,28 @@ function ContactUs() {
                     className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 input"
                     placeholder="Your Name"
                     name="name"
+                    id="name"
                   />
                   <ValidationError 
                     prefix="Name" 
                     field="name"
+                    id="name"
                     errors={state.errors}
                   />
-              
+
+
                   <label className="leading-loose">Email</label>
                   <input
                     type="email"
                     className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 input"
                     placeholder="Your Email"
                     name="email"
+                    id="email"
                   />
                   <ValidationError 
                     prefix="Email" 
                     field="email"
+                    id="email"
                     errors={state.errors}
                   />
               
@@ -69,10 +74,12 @@ function ContactUs() {
                     rows={4}
                     placeholder="Your Message"
                     name="message"
+                    id="message"
                   ></textarea>
                   <ValidationError 
                     prefix="Message" 
                     field="message"
+                    id="message"
                     errors={state.errors}
                   />
               

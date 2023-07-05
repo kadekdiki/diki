@@ -84,7 +84,7 @@ function ContactUs() {
                   />
               
                   <div className="pt-4 flex items-center space-x-4">
-                    <button className="bg-blue-700 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none hover:bg-white hover:transition hover:text-black" type="submit" disabled={state.submitting}>
+                    <button id="button" className="bg-blue-700 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none hover:bg-white hover:transition hover:text-black" type="submit" disabled={state.submitting}>
                       Send Message
                     </button>
                   </div>

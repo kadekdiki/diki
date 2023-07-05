@@ -25,7 +25,10 @@ describe('cv testing', () => {
 
   it('contact', () => {
     // Click the link for each project
-   cy.get('#name')
+   cy.get('#name').type('diki')
+   cy.get('#email').type('taggame@gmail.com')
+   cy.get('#message').type('kena game')
+   cy.get('#button').click()
       
   })
 });

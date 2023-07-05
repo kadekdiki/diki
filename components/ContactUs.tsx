@@ -9,6 +9,7 @@ function ContactUs() {
   }
 
   return (
+  <section id="contact">
     <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12 bg-transparent" id="ContactUs">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
         <div className="relative px-4 py-10 bg-red mx-8 md:mx-0 shadow rounded-3xl sm:p-10 bg-red-850">
@@ -87,6 +88,7 @@ function ContactUs() {
         </div>
       </div>
     </div>
+  </section>
   );
 }
 

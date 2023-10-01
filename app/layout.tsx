@@ -17,7 +17,7 @@ export default function RootLayout({
       */}
       
       <head />
-      <body className="bg-indigo-950 text-yellow">
+      <body className="bg-indigo-950 text-yellow-50">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
